@@ -1497,8 +1497,8 @@ Main Banner Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2868,8 +2868,8 @@ Information Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2942,8 +2942,8 @@ Information Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -3644,10 +3644,11 @@ App Download Area CSS
 Account Create Area CSS
 =================================================*/
 .account-create-area {
+  background-image: url("../img/new-images/lower-banner.jpg");
   position: relative;
   z-index: 1;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  /* background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%); */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -3662,7 +3663,7 @@ Account Create Area CSS
   opacity: .20;
   height: 100%;
   z-index: -1;
-  background-image: url(../img/bg_lines.svg);
+  /* background-image: url(../img/new-images/lower-banner.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200%;
@@ -4314,7 +4315,7 @@ Page Title Area CSS
 }
 
 .page-title-area.item-bg1 {
-  background-image: url(../img/page-title-bg1.jpg);
+  background-image: url(../img/new-images/oria-banner.jpg);
 }
 
 .page-title-area.item-bg2 {
