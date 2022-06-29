@@ -146,8 +146,22 @@ p:last-child {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(
+    75deg,
+    hsl(183deg 96% 39%) 0%,
+    hsl(175deg 81% 42%) 24%,
+    hsl(167deg 66% 44%) 48%,
+    hsl(159deg 51% 47%) 73%,
+    hsl(151deg 37% 49%) 100%
+  );
+  background: linear-gradient(
+    75deg,
+    hsl(183deg 96% 39%) 0%,
+    hsl(175deg 81% 42%) 24%,
+    hsl(167deg 66% 44%) 48%,
+    hsl(159deg 51% 47%) 73%,
+    hsl(151deg 37% 49%) 100%
+  );
   border-radius: 4px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2284,8 +2298,8 @@ Features Area CSS
   z-index: -1;
   width: 0;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
