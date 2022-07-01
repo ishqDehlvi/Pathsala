@@ -3740,8 +3740,8 @@ Blog Area CSS
   position: absolute;
   left: 20px;
   bottom: -20px;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
+  background: linear-gradient( 75deg, hsl(183deg 96% 39%) 0%, hsl(175deg 81% 42%) 24%, hsl(167deg 66% 44%) 48%,hsl(159deg 51% 47%) 73%,hsl(151deg 37% 49%) 100% );
   color: #ffffff;
   padding: 10px 16px 8px;
   border-radius: 50px;
